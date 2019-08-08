@@ -1,0 +1,26 @@
+{
+  "name": "wikiglitch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "wikiglitch": "./cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "cheerio": "^1.0.0-rc.3",
+    "fs-extra": "^8.0.1",
+    "lodash": "^4.17.11",
+    "minimist": "^1.2.0",
+    "persist-request": "^1.2.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "stream-to-promise": "^2.2.0",
+    "string2png": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
